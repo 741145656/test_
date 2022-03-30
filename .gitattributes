@@ -1,2 +1,35 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+    <img src= "https://myullex.com/wp-content/uploads/2020/12/ozone-2.png" width="147" height="60" alt="ozon">
+    <h1><a href="">Каталог</a></h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <div class="search-box">
+      <input class="search-txt" type="text" name="" placeholder="Искать на Ozon">
+      <a class="search-btn" href= "#"></a>
+   </div>
+</body>
+</html>
+
+
+<style>
+   body {
+      display: flex;
+      justify-content: relative;
+      align-items: relative;
+      min-height: 350px;
+   }
+   a {
+      position:relative;
+      padding: 15px 35px;
+      margin: 15px;
+   }
+   input {
+      position: relative;
+   }
+</style>
