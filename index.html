@@ -2,32 +2,40 @@
 <html lang="ru">
 
 <head>
-    <img src= "https://myullex.com/wp-content/uploads/2020/12/ozone-2.png" width="147" height="60" alt="ozon">
-    <h1><a href="">Каталог</a></h1>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   <div class="container">
-   <div class="row"></div>
-   <div class="row"></div>
+   <img src= "https://myullex.com/wp-content/uploads/2020/12/ozone-2.png" width="147" height="60" alt="ozon">
+   <h1><a href="">Каталог</a></h1>
+   <div class="main">
+      <div class="container">
+            <div class="row">
+               <div class="col-1-3"></div>
+               <div class="col-2-3"></div>
+            </div>
+            <div class="row">
+               <div class="col-1-3"></div>
+               <div class="col-2-3"></div>
+            </div>
    <input class="search-txt" type="text" name="" placeholder="Искать на Ozon"></input>
    <a class="search-btn" href= "#"></a>
+   <div>
+      <h2><a href="">Войти</a></h2>
+      <h2><a href="">Заказы</a></h2>
+      <h2><a href="">Избранное</a></h2>
+      <h2><a href="">Корзина</a></h2>
+   </div>
+   <div>
+      <a href="">Бренды</a>
+      <a href="">Магазины</a>
+      <a href="">Сертификаты</a>
+      <a href="">Одежда и обувь</a>
+      <a href="">Детские товары</a>
+      <a href="">Дом и сад</a>
+   </div>
 </body>
-<div>
-   <h2><a href="">Войти</a></h2>
-   <h2><a href="">Заказы</a></h2>
-   <h2><a href="">Избранное</a></h2>
-   <h2><a href="">Корзина</a></h2>
-</div>
-<div>
-   <div><a href="">Бренды</a></div>
-   <div><a href="">Магазины</a></div>
-   <div><a href="">Сертификаты</a></div>
-   <div><a href="">Одежда и обувь</a></div>
-   <div><a href="">Детские товары</a></div>
-   <div><a href="">Дом и сад</a></div>
-</div>
+
 
 <style>
    head {
@@ -46,10 +54,10 @@
       padding: 15px 35px;
       margin: 15px;
    }
-   input {
-      position: relative;
+   .row {
+      display: flex;
    }
-   div {
+   .container {
       display: flex;
       flex-direction: column;
    }
