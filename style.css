@@ -1,0 +1,40 @@
+<link href="css.txt" rel="stylesheet" type="text/css">
+   body {
+      min-height: 270px;
+      line-height: 17px;
+   }
+   a {
+      padding: 15px 35px;
+      margin: 15px;
+   }
+   .container {
+      display: flex;
+      flex-direction: column;
+   }
+   .row
+   {
+      display: flex;
+   }
+   input {
+      height: 30px;
+      width: 150px;
+   }
+   .ad
+   {
+      display: flex;
+      flex-direction: column;
+   }
+   .announcement
+   {
+      display: flex;
+   }
+   .Stock
+   {
+      display: flex;
+      flex-direction: column;
+   }
+   .center
+   {
+   justify-content: center;
+   display: flex;
+   }
