@@ -1,4 +1,3 @@
-<link href="css.txt" rel="stylesheet" type="text/css">
    body {
       min-height: 270px;
       line-height: 17px;
@@ -16,8 +15,8 @@
       display: flex;
    }
    input {
-      height: 30px;
-      width: 150px;
+      height: 50px;
+      width: 160px;
    }
    .ad
    {
@@ -27,6 +26,7 @@
    .announcement
    {
       display: flex;
+      flex-direction: column;
    }
    .Stock
    {
