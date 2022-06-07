@@ -9,14 +9,15 @@
    .container {
       display: flex;
       flex-direction: column;
+      margin-right: 40px;  
    }
    .row
    {
       display: flex;
    }
    input {
-      height: 50px;
-      width: 160px;
+      height: 36px;
+      width: 215px;
    }
    .ad
    {
@@ -43,4 +44,16 @@
       justify-content: space-between;
       display: flex;
       margin-bottom: 8rem;
+   }
+   .row2
+   {
+      display: flex;
+      margin-bottom: -17px;
+   }
+   .row3
+   {
+      display: flex;
+      margin-bottom: -17px;
+      line-height: 15px;
+      margin-right: 40px;
    }
