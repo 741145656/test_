@@ -1,4 +1,4 @@
-     body {
+   body {
       min-height: 270px;
       line-height: 17px;
    }
@@ -9,8 +9,9 @@
       display: flex;
       flex-direction: column;
       line-height: 15px;
-      margin-right: 5px;  
-      margin: auto;
+      margin-right: 5px;
+      margin: auto;  
+      max-width: 1280px
    }
    .row
    {
