@@ -1,15 +1,16 @@
-   body {
+     body {
       min-height: 270px;
       line-height: 17px;
    }
    a {
       padding: 15px 35px;
-      margin: 15px;
    }
    .container {
       display: flex;
       flex-direction: column;
-      margin-right: 40px;  
+      line-height: 15px;
+      margin-right: 5px;  
+      margin: auto;
    }
    .row
    {
@@ -48,12 +49,14 @@
    .row2
    {
       display: flex;
-      margin-bottom: -17px;
    }
    .row3
    {
       display: flex;
-      margin-bottom: -17px;
-      line-height: 15px;
-      margin-right: 40px;
+      line-height: 10.px;
+      padding: 10px;
+   }
+   .blue {
+      background: #254dce;
+      background-size: 10px 20px;
    }
