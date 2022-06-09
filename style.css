@@ -1,63 +1,64 @@
-    body {
-      min-height: 270px;
-      line-height: 17px;
-   }
-   a {
-      margin: 25px
-      
-   }
-   .container {
-      display: flex;
-      flex-direction: column;
-      line-height: 15px;
-      margin: auto;  
-      max-width: 1280px
-   }
-   .row
-   {
-      display: flex;
-   }
-   input {
-      height: 36px;
-      width: 215px;
-   }
-   .ad
-   {
-      justify-content: space-between;
-      display: flex;
-   }
-   .announcement
-   {
-      display: flex;
-      flex-direction: column;
-   }
-   .Stock
-   {
-      display: flex;
-      flex-direction: column;
-   }
-   .center
-   {
-      justify-content: center;
-      display: flex;
-   }
-   .products
-   {
-      justify-content: space-between;
-      display: flex;
-      margin-bottom: 8rem;
-   }
-   .row2 {
-      display: flex;
-   }
-   .row3
-   {
-      display: flex;
-      margin: 5px;
-   }
-   .gray {
-      color: #001a34
-   }
-   .blue {
-      color: #00a6a6;;
-   }
+body {
+   min-height: 270px;
+   line-height: 17px;
+}
+a {
+   margin: 10px  
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   line-height: 15px;
+   margin: 15px;
+   margin: auto;
+   max-width: 1280px
+}
+.row
+{
+   display: flex;
+}
+input {
+   height: 40px;
+   width: 1120px;
+}
+.ad
+{
+   justify-content: space-between;
+   display: flex;
+}
+.announcement
+{
+   display: flex;
+   flex-direction: column;
+}
+.Stock
+{
+   display: flex;
+   flex-direction: column;
+}
+.center
+{
+   justify-content: center;
+   display: flex;
+}
+.products
+{
+   justify-content: space-between;
+   display: flex;
+   margin-bottom: 8rem;
+}
+.row2 {
+   display: flex;
+}
+.row3
+{
+   display: flex;
+   margin: 5px;
+   white-space: nowrap
+}
+.gray {
+   color: #001a34;
+}
+.blue {
+   color: #00a6a6;
+}
