@@ -1,28 +1,26 @@
 body {
    min-height: 270px;
    line-height: 17px;
+   padding-left: 10px;
 }
 a {
    text-decoration: none;
    color: #001a34;
-   margin: 10px;
 }
 .container {
    display: flex;
    flex-direction: column;
    line-height: 15px;
    margin: 15px;
-   margin: auto;
    max-width: 1280px
 }
 .row
 {
-   margin: 2px;
    display: flex;
 }
 input {
-   height: 35px;
-   width: 400px;
+   height: 34px;
+   width: 420px;
 }
 .ad
 {
@@ -65,20 +63,70 @@ input {
    color: #00a6a6;
 }
 .blue2 {
-   background-color: rgb(49, 66, 212);
-   color: #fff;
-   border-radius: 10px;
-   margin-left: 17px;
-   margin-right: 17px;
+   border-radius: 6px;
+   margin-right: 16px;
+   background-color: blue;
+   
+
 }
 select {
-   height: 41px;
-   width: 80px;
+   height: 40px;
+   width: 65px;
 }
 .inp {
    display: flex;
-   margin: 0px;
+}
+.white {
+   color: white;
 }
 .text {
    width: 200px;
+}
+.f60 {
+   margin-left: 15px;
+}
+.indent1 {
+   margin-right: 38px;
+}
+.indent2 {
+   margin-right: 16px;
+}
+.indent3 {
+   margin-right: 24px;
+}
+.indent4 {
+   margin-right: 14px;
+}
+.indent5 {
+   margin-right: 16px;
+}
+.indent6 {
+   margin-right: 16px;
+}
+
+.upindent {
+   display: flex;
+   margin-right: 12px;
+}
+.upindent2 {
+   margin-right: 40px;
+}
+.downident {
+   padding: 4px
+}
+.downident1 {
+   margin-right: 18px;
+}
+.i1 {
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.i2 {
+   margin-right: 5px;
+}
+.i3 {
+   margin-right: 5px;
+}
+.i4 {
+   margin-right: 5px;
 }
