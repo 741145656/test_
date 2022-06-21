@@ -73,11 +73,17 @@ input {
    color: #00a6a6;
 }
 .blue2 {
+   display: inline-flex;
    border-radius: 6px;
    margin-right: 16px;
-   background-color: blue;
-   
-
+   background-color: #005bff;
+   min-height: 40px;
+   min-width: 120px;
+   padding: 0 12px;
+   padding-bottom: 1px;
+   padding-top: 6px;
+   justify-content: center;
+   cursor: pointer;
 }
 select {
    height: 40px;
@@ -127,19 +133,6 @@ select {
 .downident1 {
    margin-right: 26px;
 }
-.i1 {
-   margin-left: 14px;
-   margin-right: 5px;
-}
-.i2 {
-   margin-right: 5px;
-}
-.i3 {
-   margin-right: 5px;
-}
-.i4 {
-   margin-right: 5px;
-}
 .t {
    background-color: #e5efff;
    border-radius: 8px;
@@ -147,4 +140,14 @@ select {
 .icon {
    width: 14;
    height: 16;
+   padding-bottom: 2px;
+}
+.lk6 {
+   padding-top: 5px;
+}
+.f60 {
+   margin-right: 5px;
+}
+.f61 {
+   margin-right: 18px;
 }
