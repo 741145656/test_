@@ -111,18 +111,18 @@ select {
    margin-right: 24px;
 }
 .indent4 {
-   margin-right: 14px;
+   margin-right: 45px;
 }
 .indent5 {
-   margin-right: 16px;
+   margin-right: 45px;
 }
 .indent6 {
-   margin-right: 16px;
+   margin-right: 40px;
 }
 
 .upindent {
    display: flex;
-   margin-right: 10px;
+   margin-right: 11px;
 }
 .upindent2 {
    margin-right: 40px;
@@ -142,12 +142,16 @@ select {
    height: 16;
    padding-bottom: 2px;
 }
-.lk6 {
-   padding-top: 5px;
-}
 .f60 {
    margin-right: 5px;
 }
 .f61 {
    margin-right: 18px;
+}
+.icon1 {
+   width: 24px;
+   height: 24px;
+}
+.pb-1 {
+   padding-bottom: 2px;
 }
