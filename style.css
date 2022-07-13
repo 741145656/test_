@@ -2,6 +2,7 @@ body {
    min-height: 270px;
    line-height: 17px;
    padding-left: 10px;
+   font-family: 'GTEsitpro';
 }
 a {
    text-decoration: none;
@@ -12,11 +13,18 @@ a {
    flex-direction: column;
    line-height: 15px;
    margin: 15px;
-   max-width: 1280px
+   max-width: 1580px
+}
+.container2 {
+   display: none;
+   flex-direction: column;
+   line-height: 15px;
+   margin: 15px;
+   max-width: 1580px
 }
 input {
    height: 34px;
-   width: 420px;
+   width: 540px;
 }
 .ad
 {
@@ -64,7 +72,9 @@ input {
 .row3
 {
    display: flex;
-   white-space: nowrap
+   white-space: nowrap;
+   margin-top: 7px;
+   
 }
 .gray {
    color: #001a34;
@@ -77,13 +87,14 @@ input {
    border-radius: 6px;
    margin-right: 16px;
    background-color: #005bff;
-   min-height: 40px;
-   min-width: 120px;
    padding: 0 12px;
+   width: 120px;
+   height: 40px;
    padding-bottom: 1px;
    padding-top: 6px;
    justify-content: center;
    cursor: pointer;
+   border: none;
 }
 select {
    height: 40px;
@@ -113,16 +124,10 @@ select {
 .indent4 {
    margin-right: 16px;
 }
-.indent5 {
-   margin-right: 16px;
-}
-.indent6 {
-   margin-right: 16px;
-}
 
 .upindent {
    display: flex;
-   margin-right: 11px;
+   margin-right: 10px;
 }
 .upindent2 {
    margin-right: 40px;
@@ -146,6 +151,7 @@ select {
    margin-right: 5px;
 }
 .f61 {
+   margin-left: 5px;
    margin-right: 18px;
 }
 .icon1 {
@@ -155,10 +161,23 @@ select {
 .pb-1 {
    padding-bottom: 2px;
 }
-.c65 {
-   margin-bottom: 4px;
-   color:#52606e;
-}
 .ui12 {
    margin-left: 16px;
+}
+.lk6 {
+   margin-top: 2px;
+}
+.j7 {
+   font-weight: 700;
+   margin-top: 5px;
+   margin-left: 2px;
+}
+
+.search-txt {
+   border-color: #005bff;
+   border-width: 2px;
+}
+.s85 {
+   border-color: #005bff;
+   border-width: 2px;
 }
