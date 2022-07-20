@@ -206,6 +206,10 @@ input {
    display: flex;
 }
 
+row1-block {
+   display: flex;
+}
+
 .row2 {
    display: flex;
    margin-top: 4px;
@@ -306,39 +310,7 @@ select {
    display: flex;
 }
 
-.row2-indent4-login {}
-
-.row2-indent4-login-icon {
-   width: 14;
-   height: 16;
-   padding-bottom: 2px;
-   margin-left: 15px;
-   margin-right: 5px;
-}
-
-.row2-indent4-orders {}
-
-.row2-indent4-orders-icon {
-   width: 14;
-   height: 16;
-   padding-bottom: 2px;
-   margin-left: 15px;
-   margin-right: 5px;
-}
-
-.row2-indent4-favorites {}
-
-.row2-indent4-favorites-icon {
-   width: 14;
-   height: 16;
-   padding-bottom: 2px;
-   margin-left: 18px;
-   margin-right: 5px;
-}
-
-.row2-indent4-basket {}
-
-.row2-indent4-baskets-icon {
+.row2-block-icon {
    width: 14;
    height: 16;
    padding-bottom: 2px;
@@ -357,8 +329,6 @@ select {
    margin-bottom: 8px;
    margin-top: -2px;
 }
-
-row1-upident2-first-part {}
 
 row1-upident2-second-part {
    display: flex;
@@ -391,7 +361,7 @@ row1-upident2-second-part {
    height: 24px;
 }
 
-.row2-blue2-catalog {
+.row2-catalog {
    margin-top: 5px;
    margin-left: 2px;
    color: #fff;
@@ -437,10 +407,18 @@ row1-upident2-second-part {
    border: none;
 }
 
-.row1-select {
+.row1-block-select {
    height: 20px;
    width: 50px;
    margin-right: 5px;
    border: #ffff;
+}
+
+.row1-block-line-1 {
+   display: flex;
+}
+
+row1-block-line-2 {
+   display: flex;
 }
 
