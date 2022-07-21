@@ -136,10 +136,16 @@ body {
    min-height: 270px;
    line-height: 17px;
    padding-left: 10px;
+   font-family: Arial;
 }
 
 a {
    text-decoration: none;
+   font-size: 14px;
+}
+
+span {
+   font-size: 14px;
 }
 
 .container {
@@ -254,10 +260,6 @@ row1-block {
    color: #3d5165;
 }
 
-.big-top-margin {
-   margin-right: 44px;
-}
-
 .row2-blue2 {
    display: inline-flex;
    border-radius: 6px;
@@ -365,6 +367,7 @@ row1-upident2-second-part {
    margin-top: 5px;
    margin-left: 2px;
    color: #fff;
+   font-weight: bold;
 }
 
 .search-txt {
@@ -409,16 +412,53 @@ row1-upident2-second-part {
 
 .row1-block-select {
    height: 20px;
-   width: 50px;
+   margin-left: 20px;
    margin-right: 5px;
    border: #ffff;
+   font-size: 12px;
 }
 
 .row1-block-line-1 {
    display: flex;
+   margin-top: 4px;
 }
 
 row1-block-line-2 {
    display: flex;
 }
 
+.row1-block {
+   display: flex;
+
+}
+
+.row1-block-line-1-link-1 {
+   margin-right: 2px;
+   margin-left: 2px;
+}
+
+.row1-block-line-1-link-2 {
+   margin-left: 2px;
+   margin-right: 4px;
+}
+
+.row1-block-line-2-link-3 {
+   margin-left: 70px;
+}
+
+.row1-block-select-link {
+   color: #707f8d;
+   font-size: 12px;
+}
+
+.row2-block-a-login {
+   margin-left: 6px;
+}
+
+.row2-catalog-catalog {
+   font-size: 16px;
+}
+
+.row2-indent4-block-icon-svg {
+   margin-left: 8px;
+}
