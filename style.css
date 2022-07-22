@@ -246,7 +246,10 @@ input {
 
 .row1 {
    padding-bottom: 7px;
+   margin-bottom: 10px;
    display: flex;
+   position: relative;
+   right: 25px;
 }
 
 row1-block {
@@ -448,7 +451,6 @@ select {
    height: 20px;
    margin-left: 20px;
    margin-right: 5px;
-   border: #ffff;
    font-size: 12px;
 }
 
@@ -482,7 +484,10 @@ row1-block-line-2 {
 
 .row1-block-select-link {
    color: #707f8d;
-   font-size: 12px;
+   font-size: 11px;
+   margin-right: 10px;
+   position: relative;
+   bottom: 3px;
 }
 
 .row2-block-a-login {
@@ -495,4 +500,8 @@ row1-block-line-2 {
 
 .row2-indent4-block-icon-svg {
    margin-left: 8px;
+}
+
+.row1-block-line1-icon-svg {
+   margin-right: 2px;
 }
