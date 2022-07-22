@@ -1,465 +1,498 @@
-<!DOCTYPE HTML>
-<html lang="ru">
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
 
-<head>
-   <title>Ozon</title>
-   <link href="style.css" rel="stylesheet" type="text/css">
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
 
-<body>
-   <div class="container">
-      <div class="header">
-         <div class="row1">
-            <div class="row1-block">
-               <div class="row1-block-line-1">
-                  <button class="row1-block-select" name="" id="">
-                     <span class="row1-block-select-link">RUB</span>
-                  </button>
-                  <div class="upindent2">
-                     <div class="row1-block-line-1-icon">
-                        <svg class="gray row1-upident2-first-part-svg" xmlns="" width="16" height="16"
-                           viewbox="0 0 16 16">
-                           <path fill="currentColor" d="M8 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z">
-                           </path>
-                           <path fill="currentColor"
-                              d="M8 0a7 7 0 0 0-7 7c0 2.91 1.713 5.148 3.285 6.596a15.845 15.845 0 0 0 2.945 2.13c.155.085.32.172.406.205a1 1 0 0 0 .728 0c.086-.033.25-.12.406-.206a15.846 15.846 0 0 0 2.945-2.13C13.287 12.149 15 9.91 15 7a7 7 0 0 0-7-7ZM3 7a5 5 0 0 1 10 0c0 2.09-1.237 3.833-2.64 5.125A13.846 13.846 0 0 1 8 13.863a13.847 13.847 0 0 1-2.36-1.738C4.237 10.833 3 9.09 3 7Z">
-                           </path>
-                        </svg>
-                     </div>
-                     <span class="gray row1-block-line-1-link-1">Москва</span>
-                     <span class="gray row1-block-line-1-link-2">•</span>
-                     <span class="blue row1-block-line-1-link">Укажите адрес доставки</span>
-                  </div>
-               </div>
-               <div class="row1-block-line-2">
-                  <div class="row">
-                     <div class="upindent">
-                        <a class="gray3 upident-background row1-block-line-2-link-3" href="">Ozon для бизнеса</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Мобильное приложение</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Продавайте на Ozon</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Реферальная программа</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Подарочные сертификаты</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Помощь</a>
-                     </div>
-                     <div class="upindent">
-                        <a class="gray2 row1-block-line-2-link" href="">Доставка</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row2">
-            <div class="indent1">
-               <img src="https://cdn1.ozone.ru/s3/cms/60/t3d/wc200/1doodle.png" width="135" height="40" alt="Ozon">
-            </div>
-            <div class="row2-block-1">
-               <button class="row2-blue2 catalog-button">
-                  <svg class="catalog-button-svg" width="24" height="20">
-                     <path fill="currentColor"
-                        d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm2 0a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm0 6a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm1 5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H8Zm-4-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z">
-                     </path>
-                  </svg>
-                  <span class="row2-catalog"><a class="row2-catalog-catalog">Каталог</a></span>
-               </button>
-            </div>
-            <div class="row2-search">
-               <select class="row2-search-city-selection" id="selectItem">
-                  <option id="vezde">Везде</option>
-                  <option id="moskva">Москва</option>
-                  <option id="shahti">Шахты</option>
-               </select>
-               <div class="input">
-                  <input class="search-txt" type="text" name="#" placeholder="Искать на Ozon">
-                  <a class="search-btn" href="#"></a>
-               </div>
-               <div class="indent3">
-                  <button class="row2-search-button" type="submit">
-                     <svg class="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" type="submit"
-                        aria-label="Поиск">
-                        <path fill="currentColor"
-                           d="M11 5a6 6 0 1 0 0 12c1.619 0 3.169-.639 4.24-1.656a1.101 1.101 0 0 1 1.537.019l4.93 4.93a1 1 0 0 1-1.414 1.414l-4.346-4.346A8.298 8.298 0 0 1 11 19a8 8 0 1 1 7.875-6.587 1 1 0 0 1-1.968-.351A6 6 0 0 0 11 5Z">
-                        </path>
-                     </svg>
-                  </button>
-               </div>
-            </div>
-            <div class="row">
-               <div class="indent4">
-                  <div class="row2-block">
-                     <a class="row2-block-a" href="">
-                        <div class="row2-block-icon">
-                           <svg class="gray row2-block-icon-svg" xmlns="" width="24" height="24">
-                              <path fill="currentColor"
-                                 d="M8 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-8.3 4.286c.016.015.185.165.5.323.376.187.971.391 1.8.391.829 0 1.425-.204 1.8-.391.175-.088.355-.19.5-.323a1 1 0 0 1 1.407 1.421C15.587 16.827 14.357 18 12 18c-2.358 0-3.587-1.173-3.707-1.293A1 1 0 0 1 9.7 15.286Z">
-                              </path>
-                              <path fill="currentColor"
-                                 d="M11 2a1 1 0 0 1 1-1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12a11 11 0 0 1 6.23-9.914 1 1 0 0 1 1.36.524c.292.72.69 1.565 1.362 2.233C10.592 5.481 11.524 6 13 6a1 1 0 1 1 0 2c-2.024 0-3.458-.743-4.459-1.74-.6-.596-1.027-1.267-1.34-1.875A9 9 0 1 0 12 3a1 1 0 0 1-1.001-1Z">
-                              </path>
-                           </svg>
-                        </div>
-                        <span class="gray row2-block-a-login">Войти</span>
-                     </a>
-                  </div>
-               </div>
-               <div class="indent4">
-                  <div class="row2-block">
-                     <a class="row2-block-a" href="">
-                        <div class="row2-block-icon">
-                           <svg class="gray row2-block-icon-svg" xmlns="" width="24" height="24">
-                              <path fill="currentColor"
-                                 d="M16.976 3.63 11.994 1 2 6.412v11.19l5.525 2.983a1 1 0 0 0 .95-1.759L4 16.41V8.707l2.015 1.12A.969.969 0 0 0 6 10v3a1 1 0 1 0 2 0v-2.07l3 1.665v9.394c0 .77.827 1.256 1.5.883l9.5-5.277V6.42l-5.024-2.79ZM7.5 8.363 5.08 7.019l6.926-3.751L14.4 4.53 7.5 8.364Zm2.06 1.144 6.94-3.856 2.44 1.356L12 10.863 9.56 9.508Zm3.44 10.8v-7.711l7-3.889v7.711l-7 3.889Z">
-                              </path>
-                           </svg>
-                        </div>
-                        <span class="gray">Заказы</span>
-                     </a>
-                  </div>
-               </div>
-               <div class="indent4">
-                  <div class="row2-block">
-                     <a class="row2-block" href="">
-                        <div class="row2-block-icon">
-                           <svg class="gray row2-indent4-block-icon-svg" xmlns="" width="24" height="24">
-                              <path fill="currentColor"
-                                 d="M7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Zm5 17c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Z">
-                              </path>
-                           </svg>
-                        </div>
-                        <span class="gray">Избранное</span>
-                     </a>
-                  </div>
-               </div>
-               <div class="row2-block">
-                  <a class="row2-block" href="">
-                     <div class="row2-block-icon">
-                        <svg class="gray row2-block-icon-svg" xmlns="" width="24" height="24" fill="none">
-                           <path fill="currentColor"
-                              d="M6 6a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2h4a1 1 0 0 1 .986 1.164l-1.582 9.494A4 4 0 0 1 17.46 22H6.54a4 4 0 0 1-3.945-3.342L1.014 9.164A1 1 0 0 1 2 8h4V6Zm2 2h5a1 1 0 1 1 0 2H3.18l1.389 8.329A2 2 0 0 0 6.54 20h10.92a2 2 0 0 0 1.972-1.671L20.82 10H17a1 1 0 0 1-1-1V6a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2Z">
-                           </path>
-                        </svg>
-                     </div>
-                     <span class="gray">Корзина</span>
-                  </a>
-               </div>
-            </div>
-         </div>
-         <div class="row3">
-            <div class="row3-block downident1">
-               <svg class="row3-block-icon" xmlns="" width="16" height="19" viewbox="0 0 24 24" fill="none">
-                  <path
-                     d="M11.8784 0.525387L15.1434 6.58939L21.1524 7.51339C21.3307 7.54091 21.4982 7.61614 21.6371 7.73111C21.7761 7.84607 21.8814 7.99648 21.9419 8.16642C22.0024 8.33635 22.0158 8.51947 21.9806 8.69639C21.9455 8.87331 21.8632 9.03744 21.7424 9.17139L17.5554 13.8234L18.4894 20.3614C18.5153 20.5441 18.4901 20.7305 18.4166 20.8998C18.3432 21.0691 18.2243 21.2147 18.0731 21.3206C17.922 21.4265 17.7445 21.4885 17.5603 21.4998C17.376 21.5111 17.1923 21.4711 17.0294 21.3844L10.9994 18.1374L4.9694 21.3844C4.80657 21.4719 4.62263 21.5125 4.43809 21.5016C4.25356 21.4906 4.07568 21.4287 3.92428 21.3226C3.77289 21.2165 3.65393 21.0705 3.58068 20.9008C3.50742 20.731 3.48275 20.5443 3.5094 20.3614L4.4434 13.8234L0.256402 9.17139C0.135941 9.03732 0.0539143 8.87321 0.0189812 8.69639C-0.0159519 8.51957 -0.00249498 8.33659 0.0579312 8.16679C0.118357 7.99698 0.223511 7.84663 0.36229 7.73163C0.50107 7.61662 0.668326 7.54122 0.846402 7.51339L6.8544 6.58939L10.1204 0.525387C10.2058 0.366577 10.3326 0.233866 10.4874 0.141358C10.6421 0.0488496 10.8191 0 10.9994 0C11.1797 0 11.3567 0.0488496 11.5114 0.141358C11.6662 0.233866 11.793 0.366577 11.8784 0.525387V0.525387ZM8.1434 8.41539L2.9804 9.20939L6.5554 13.1804L5.7694 18.6824L10.9994 15.8664L16.2294 18.6824L15.4434 13.1804L19.0184 9.20939L13.8554 8.41439L10.9994 3.11139L8.1434 8.41439V8.41539Z"
-                     fill="#001A34" />
-               </svg>
-               <span class="row3-block-link">TOP Fashion</span>
-            </div>
-            <div class="row3-block downident1">
-               <svg class="row3-block-icon" xmlns="" width="16" height="19" viewbox="0 0 24 24" fill="none">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                     d="M11.1317 2.50386C11.3098 2.19229 11.6411 2 12 2C12.3588 2 12.6902 2.19229 12.8682 2.50386L16.2186 8.36711L21.2928 3.29289C21.5967 2.98904 22.0607 2.91328 22.4454 3.1047C22.8301 3.29613 23.0496 3.71194 22.9904 4.13757L21.3238 16.1376C21.2551 16.6319 20.8324 17 20.3333 17L10.5 17C9.94767 17 9.49995 16.5523 9.49995 16C9.49995 15.4477 9.94767 15 10.4999 15L19.4626 15L20.5994 6.81475L16.7071 10.7071C16.4867 10.9275 16.1761 11.0325 15.8672 10.9912C15.5583 10.9498 15.2863 10.7667 15.1317 10.4961L12 5.01556L8.86819 10.4961C8.71356 10.7667 8.4416 10.9498 8.13268 10.9912C7.82377 11.0325 7.51323 10.9275 7.29284 10.7071L3.40049 6.81475L4.53733 15H6.49995C7.05224 15 7.49995 15.4477 7.49995 16C7.49995 16.5523 7.05224 17 6.49995 17H3.66662C3.16749 17 2.74479 16.6319 2.67613 16.1376L1.00946 4.13757C0.950342 3.71194 1.16976 3.29613 1.55448 3.1047C1.9392 2.91328 2.4032 2.98904 2.70706 3.29289L7.78128 8.36711L11.1317 2.50386ZM3.99999 20C3.44771 20 2.99999 20.4477 2.99999 21C2.99999 21.5523 3.44771 22 3.99999 22H20C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20H3.99999Z"
-                     fill="#001A34" />
-               </svg>
-               <span class="row3-block-link">Premium</span>
-            </div>
-            <div class="row3-block downident1">
-               <svg class="row3-block-icon" xmlns="" width="17" height="20" viewbox="0 0 24 24" fill="none">
-                  <path
-                     d="M20.657 3.32054C20.2168 2.89516 19.5168 2.90108 19.084 3.33385L14.713 7.70379C14.4751 7.94162 14.1336 8.044 13.8041 7.97626L4.2152 6.00514C4.10457 5.9824 4.00093 6.06688 4.00093 6.17979C4.00093 6.25412 4.04705 6.32065 4.11666 6.34675L11.3555 9.06067C11.6589 9.17444 11.8885 9.42814 11.9714 9.74139C12.0543 10.0546 11.9802 10.3886 11.7728 10.6375L6.77044 16.6389C6.47322 16.9955 5.96969 17.1008 5.55444 16.8932L5.06592 16.649L7.3522 18.9348L7.10795 18.4464C6.90032 18.0312 7.00565 17.5278 7.36231 17.2307L13.3651 12.2295C13.6141 12.0221 13.9481 11.9481 14.2615 12.031C14.5748 12.1138 14.8285 12.3433 14.9423 12.6467L17.656 19.8815C17.6827 19.9525 17.7505 19.9995 17.8263 19.9995C17.9416 19.9995 18.0278 19.8938 18.0045 19.7809L16.0271 10.1993C15.9591 9.86969 16.0615 9.52795 16.2995 9.28995L20.6705 4.92001C21.1138 4.47675 21.1077 3.75623 20.657 3.32054ZM17.6691 1.91931C18.874 0.714641 20.8225 0.698156 22.0477 1.88226C23.3025 3.09506 23.3195 5.1007 22.0854 6.33455L18.0958 10.3232L19.9641 19.3767C20.2436 20.7307 19.2092 22 17.8263 22C16.9164 22 16.102 21.4357 15.7825 20.5839L13.5636 14.6682L9.252 18.2603L9.26535 18.287C9.8358 19.4277 9.61219 20.8053 8.71022 21.707C8.5226 21.8946 8.26813 22 8.00279 22C7.73745 22 7.48298 21.8946 7.29535 21.707L2.29303 16.7059C1.90232 16.3153 1.90232 15.682 2.29303 15.2913C3.195 14.3896 4.57294 14.166 5.71385 14.7363L5.74055 14.7497L9.33353 10.4391L3.41408 8.21984C2.5635 7.90095 2 7.088 2 6.17979C2 4.80009 3.26644 3.76779 4.61818 4.04566L13.6792 5.90827L17.6691 1.91931Z"
-                     fill="black" />
-               </svg>
-               <span class="row3-block-link">Билеты и отели</span>
-            </div>
-            <div class="row3-block downident1">
-               <svg class="row3-block-icon" xmlns="" width="14" height="16" viewbox="0 0 14 16" fill="none">
-                  <path
-                     d="M1.10557 0.552786C1.27496 0.214002 1.62123 0 2 0C3.3935 0 4.52824 0.297322 5.43082 0.830967C6.33612 1.36622 6.94887 2.1045 7.3494 2.89084C8.13136 4.42602 8.11524 6.15714 7.99201 7.12615C7.94562 7.49096 7.70274 7.80087 7.3596 7.93311C7.01645 8.06535 6.62841 7.99858 6.3492 7.75925C6.17152 7.61253 5.97291 7.48794 5.77114 7.37789C5.38436 7.16691 4.93057 6.99999 4.5 6.99999C3.85521 6.99999 3.24743 7.19343 2.80894 7.60452C2.38659 8.00047 2 8.71189 2 9.99998C2 11.1358 2.55994 12.1131 3.48894 12.8356C4.42877 13.5666 5.70986 14 7.00001 14C8.29014 14 9.57122 13.5666 10.5111 12.8356C11.4401 12.1131 12 11.1357 12 9.99998C12 8.68569 11.6383 7.95302 11.2689 7.5573C10.8956 7.15733 10.4217 6.99998 10 6.99999C9.44773 6.99999 9.00001 6.55228 9 6C8.99999 5.44771 9.4477 4.99999 9.99999 4.99999C10.9116 4.99997 11.9377 5.34263 12.7311 6.19267C13.5284 7.04696 14 8.3143 14 9.99998C14 11.8642 13.0599 13.3869 11.7389 14.4143C10.4288 15.4334 8.70986 16 6.99999 16C5.29014 16 3.57123 15.4334 2.26106 14.4143C0.940056 13.3869 0 11.8642 0 9.99998C0 8.28806 0.530077 6.99948 1.44106 6.14544C2.3359 5.30653 3.47812 4.99999 4.5 4.99999C5.05397 4.99999 5.56781 5.12541 6.00461 5.28911C5.93986 4.78849 5.80656 4.26838 5.56727 3.79859C5.31502 3.30336 4.9486 2.86928 4.41293 2.55257C3.98856 2.30166 3.26303 2.07289 2.5 2C2.3845 2.38306 2.462 2.96784 2.73 3.31676C3.095 3.70891 3.089 4.32522 2.70711 4.70711C2.31658 5.09763 1.68342 5.09763 1.29289 4.70711C0.972792 4.37523 0.76568 3.93583 0.654858 3.49254C0.466888 2.74066 0.508561 1.74681 1.10557 0.552786Z"
-                     fill="#00A6A6" />
-               </svg>
-               <span class="turquoise row3-block-link">Ozon fresh</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link">Ozon Счёт</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link">Рассрочка</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link" href="">Акции</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link">Бренды</span>
-            </div>
-            <div class="row3-block downident1">
-               <svg class="row3-block-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="19"
-                  viewbox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="12" fill="#F91155" />
-                  <path
-                     d="M4.95862 6V7.34276H2.97333V7.98328H4.71611V9.25659H2.97429V10.0592H5.07506L5.0741 11.1936L4.92013 11.4019H1.5V6H4.95862Z"
-                     fill="white" />
-                  <path
-                     d="M11.004 11.2466V11.4019H9.26024L8.01883 9.68875L6.77935 11.4019H5.0741V11.1936L7.05073 8.53119L5.12029 6H6.98144L8.02076 7.38907L9.06008 6H10.9193L8.98886 8.53119L11.004 11.2466Z"
-                     fill="white" />
-                  <path
-                     d="M11.004 11.2466L11.0049 6H13.1211C13.8602 6 14.4116 6.17363 14.7763 6.5209C15.1411 6.86817 15.3229 7.33119 15.3229 7.90611C15.3229 8.48199 15.1401 8.94405 14.7763 9.29132C14.4116 9.63859 13.8602 9.81222 13.1211 9.81222H12.4783V11.4019H11.1214L11.004 11.2466ZM12.4783 7.2974V8.5167H13.0826C13.304 8.5167 13.481 8.46557 13.61 8.36235C13.7389 8.25914 13.8034 8.10769 13.8034 7.90705C13.8034 7.70641 13.7389 7.55496 13.61 7.45174C13.4801 7.34853 13.3049 7.2974 13.0826 7.2974H12.4783Z"
-                     fill="white" />
-                  <path
-                     d="M16.1698 12.3666C16.7789 12.3666 17.3968 12.518 18.0223 12.8219L17.3871 14.126C17.1696 13.9823 16.9416 13.8752 16.7039 13.8019C16.4662 13.7296 16.2516 13.6939 16.061 13.6939C15.9465 13.6939 15.8638 13.7093 15.8089 13.7402C15.755 13.7711 15.7281 13.8222 15.7281 13.8945C15.7281 13.9457 15.7473 13.9939 15.7897 14.0373C15.8301 14.0817 15.9061 14.1309 16.0148 14.1878L17.1312 14.7588C17.4564 14.9238 17.7057 15.1215 17.8789 15.3531C18.0521 15.5846 18.1387 15.8961 18.1387 16.2868C18.1387 16.8424 17.9559 17.2669 17.5921 17.5601C17.2274 17.8534 16.6991 18 16.0071 18C15.2103 18 14.4462 17.7974 13.712 17.3904L14.3866 15.9859C14.7061 16.2125 15.0044 16.3794 15.2777 16.4875C15.551 16.5955 15.8205 16.6495 16.0841 16.6495C16.2333 16.6495 16.3478 16.6312 16.4258 16.5955C16.5027 16.5598 16.5412 16.4971 16.5412 16.4103C16.5412 16.3486 16.5201 16.2974 16.4797 16.2559C16.4383 16.2145 16.3709 16.1711 16.2776 16.1248L15.092 15.5305C14.7763 15.3714 14.5377 15.1621 14.375 14.9016C14.2114 14.6421 14.1306 14.3421 14.1306 14.0026C14.1306 13.5039 14.3057 13.1064 14.6541 12.8103C15.0034 12.5141 15.5077 12.3666 16.1698 12.3666Z"
-                     fill="white" />
-                  <path
-                     d="M20.5311 12.3666C21.1402 12.3666 21.759 12.518 22.3836 12.8219L21.7484 14.126C21.5309 13.9823 21.3029 13.8752 21.0652 13.8019C20.8284 13.7296 20.6129 13.6939 20.4223 13.6939C20.3088 13.6939 20.225 13.7093 20.1702 13.7402C20.1163 13.7711 20.0894 13.8222 20.0894 13.8945C20.0894 13.9457 20.1086 13.9939 20.1509 14.0373C20.1923 14.0817 20.2674 14.1309 20.3761 14.1878L21.4924 14.7588C21.8177 14.9238 22.0669 15.1215 22.2402 15.3531C22.4134 15.5846 22.5 15.8961 22.5 16.2868C22.5 16.8424 22.3172 17.2669 21.9534 17.5601C21.5896 17.8534 21.0613 18 20.3684 18C19.5726 18 18.8075 17.7974 18.0733 17.3904L18.7479 15.9859C19.0683 16.2125 19.3657 16.3794 19.64 16.4875C19.9133 16.5955 20.1817 16.6495 20.4454 16.6495C20.5955 16.6495 20.7091 16.6312 20.787 16.5955C20.864 16.5598 20.9025 16.4971 20.9025 16.4103C20.9025 16.3486 20.8833 16.2974 20.8409 16.2559C20.7996 16.2145 20.7322 16.1711 20.6389 16.1248L19.4533 15.5305C19.1386 15.3714 18.899 15.1621 18.7363 14.9016C18.5737 14.6421 18.4919 14.3421 18.4919 14.0026C18.4919 13.5039 18.667 13.1064 19.0154 12.8103C19.3647 12.5141 19.869 12.3666 20.5311 12.3666Z"
-                     fill="white" />
-                  <path
-                     d="M8.67803 12.7254C8.37297 12.5633 7.99093 12.4823 7.53093 12.4823H5.21364V17.8842H6.68601V15.8778L8.08139 17.8842H9.91848L8.41531 15.8778C8.79736 15.7495 9.08606 15.5402 9.28334 15.2527C9.47965 14.9643 9.57781 14.6334 9.57781 14.2572C9.57781 13.9331 9.50371 13.637 9.35647 13.3698C9.20924 13.1026 8.98405 12.8875 8.67803 12.7254ZM7.32885 13.7788C7.81001 13.7788 8.0506 13.9688 8.0506 14.3498C8.0506 14.5457 7.98804 14.6932 7.86487 14.7897C7.74072 14.8881 7.56173 14.9363 7.32981 14.9363H6.68601V13.7788H7.32885Z"
-                     fill="white" />
-                  <path
-                     d="M13.584 12.4823V13.8251H11.5987V14.4656H13.3434V15.7389H11.5987V16.5415H13.6985V17.8842H10.1263V12.4823H13.584Z"
-                     fill="white" />
-               </svg>
-               <span class="row3-block-link">Express</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link" href="">Электроника</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link" href="">Одежда и обувь</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link" href="">Детские товары</span>
-            </div>
-            <div class="row3-block downident1">
-               <span class="gray row3-block-link" href="">Дом и сад</span>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="container2">
-      <div class="announcement1">
-         <img src="https://cdn2.imgbb.ru/user/261/2614969/201704/8ef3db5fbcdd233a8738242a576a177d.png" width="1000"
-            height="300" alt="advertising" style="padding-top: 5px;">
-         <h1>Есть промокод?</h1>
-         <input class="text" name="#" placeholder="Введите промокод">
-         <h4><a href="">Все акции и купоны</a></h4>
-      </div>
-      <div>
-         <img src="#" alt="Вам на лето! Все коллекции(фото не нашёл)">
-      </div>
-      <div>
-         <img src="#" alt="Спорт в тренде(фото не нашёл)">
-         <img src="#" alt="Межсезнонная распродажа, скидки до 80%(фото не нашёл)">
-         <img src="#" alt="Отпуск прекрасен(фото не нашёл)">
-         <img src="#" alt="Выбор летнего сезона(фото нету)">
-      </div>
-      <div class="ad">
-         <div>
-            <img src="https://baggins.ru/wa-data/public/shop/products/29/16/101629/images/301308/301308.970.jpg"
-               width="185" height="185" alt="#">
-            <h1>6375 ₽ 1̶2̶2̶9̶0̶ ₽</h1>
-            <h2>Сумка женская Afina</h2>
-         </div>
-         <div>
-            <img src="https://item.tscimg.ca/TSC/5/56/560/0x0/560900.jpg?impolicy=XL" width="185" height="185" alt="#">
-            <h1>4 330 ₽ ̶1̶2̶0̶0̶0̶ ₽</h1>
-            <h2>Серьги пантеры</h2>
-         </div>
-         <div>
-            <img src="https://images.wbstatic.net/big/new/36550000/36550229-1.jpg" width="185" height="185" alt="#">
-            <h1>809 ₽</h1>
-            <h2>Футболка befree</h2>
-         </div>
-         <div>
-            <img src="https://a.lmcdn.ru/pi/product/M/P/MP002XW07XA2_14606771_1_v2.jpeg" width="185" height="185"
-               alt="#">
-            <h1>4 999 ₽</h1>
-            <h3>Новинка</h3>
-            <h2>Джинсы LOVE REPUBLIC</h2>
-         </div>
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Платья от 499р(фото нету)">
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Туфли от 899р(фото нету)">
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Футболки от 299р(фото нету)">
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Кроссовки от 1199р(фото нету)">
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Брюки от 699р(фото нету)">
-      </div>
-      <div class="Stock">
-         <img src="#" alt="Сумки от 799р(фото нету)">
-      </div>
-      <div class="row">
-         <img src="#" alt="Крупные скидки(фото нету)">
-         <img src="#" alt="Специальные предложения(фото нету)">
-         <img src="#" alt="Российские бренды(фото нету)">
-      </div>
-      <div class="center">
-         <img src="#" alt="ВЫГОДА НА ВСЕХ ДАЧАХ СТРАНЫ!(фото нету)">
-      </div>
-      <div class="row">
-         <img src="#" alt="Отдых на природе(фото нету)">
-         <img src="#" alt="Спорт и развлечения(фото нету)">
-         <img src="#" alt="Успейте купить!(фото нету)">
-      </div>
-      <div class="center">
-         <img src="#" alt="Озон клуб, Вдохновляющие Travel-истории(фото нету)">
-      </div>
-      <div class="ad">
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-1/6024294601.jpg" width="185" height="185" alt="#">
-            <h1>2 099 ₽</h1>
-            <h2>Таблетки для посудомоечной машины Somat All in 1, 100 шт</h2>
-         </div>
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-o/6071504988.jpg" width="185" height="185" alt="#">
-            <h1>3 990 ₽ ̶1̶1̶4̶9̶9̶ ₽</h1>
-            <h2>Утюг Rowenta Focus 3 DW5138D1, синий</h2>
-         </div>
-         <div>
-            <img src="https://fitomarket.ru/upload/iblock/c95/c95dc6875bc7e49c7b8cff1cad86a2b5.jpg" width="185"
-               height="185" alt="#">
-            <h1>809 ₽</h1>
-            <h2>Стиральный порошок универсальный SYNERGETIC</h2>
-         </div>
-         <div>
-            <img src="https://cdn.rbt.ru/images/gen/item_image/image/3400/23/339907_r1348.jpg" width="185" height="185"
-               alt="#">
-            <h1>5 990 ₽ ̶8̶4̶9̶0̶ ̶₽̶</h1>
-            <h2>Электрогриль Tefal GC205012</h2>
-         </div>
-      </div>
-      <div>
-         <h1>Успей купить!</h1>
-      </div>
-      <div class="products">
-         <img src="https://cdn1.ozone.ru/s3/cms/c9/t79/wc1450/lor_ozon_2832x600.jpg" width="270" height="165"
-            alt="coffee">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-3/wc250/6254043651.jpg" width="270" height="165"
-            alt="headphones">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-3/wc1200/6274395279.jpg" width="270" height="165"
-            alt="mini-oven">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-1/wc1200/6259004233.jpg" width="270" height="165" alt="water">
-      </div>
-      <div class="products">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-b/wc250/6283723967.jpg" width="270" height="165" alt="washing">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-3/wc250/6275538171.jpg" width="270" height="165" alt="sandals">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-v/wc250/6247675495.jpg" width="270" height="165" alt="shampoo">
-         <img src="https://cdn1.ozone.ru/s3/multimedia-k/wc250/6057639584.jpg" width="270" height="165" alt="Zewa">
-      </div>
-      <div>
-         <h1>Истории</h1>
-         <a href="">Смотреть все</a>
-      </div>
-      <div class="center">
-         <img src="#" width="185" height="170" alt="Водоворот скидок(фото нету)">
-      </div>
-      <div class="ad">
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-b/wc1200/6126331139.jpg" width="185" height="150" alt="#">
-            <h1>711 ₽</h1>
-            <h2>Зубная паста Biorepair Pro White</h2>
-         </div>
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-p/wc1200/6245070097.jpg" width="185" height="150" alt="#">
-            <h1>15 980 ₽</h1>
-            <h2>Смартфон Vivo Y33s</h2>
-         </div>
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-f/wc1200/6308493447.jpg" width="185" height="150" alt="#">
-            <h1>33 604 ₽</h1>
-            <h2>Электрогриль Tefal Optigrill</h2>
-         </div>
-         <div>
-            <img src="https://cdn1.ozone.ru/s3/multimedia-x/wc1200/6281354793.jpg" width="185" height="150" alt="#">
-            <h1>599 ₽</h1>
-            <h2>Батарейки щелочные Duracell Optimum</h2>
-         </div>
-      </div>
-      <div>
-         <img src="#" alt="3 книги по цене 2!(фото нету)">
-         <img src="#" alt="CКИДКИ на беговелы до 30%(фото нету)">
-         <img src="#" alt="Здоровый сон, качественный домашний текстиль более 1800 товаров(фото нету)">
-      </div>
-      <div>
-         <div class="ad">
-            <div>
-               <img src="#" alt="Скидки на любимые куклы и наборы(фото нету)">
-            </div>
-            <div>
-               <img src="https://cdn1.ozone.ru/s3/multimedia-7/wc1200/6271442887.jpg" width="185" height="150" alt="#">
-               <h1>1 199 ₽</h1>
-               <h2>Электрический чайник Scarlett стеклянный</h2>
-            </div>
-            <div>
-               <img src="https://avatars.mds.yandex.net/get-mpic/4119563/img_id2805520954539204472.png/orig" width="185"
-                  height="150" alt="#">
-               <h1>1 554 ₽</h1>
-               <h2>Внешний аккумулятор vipe Frame</h2>
-            </div>
-            <div>
-               <img src="https://cdn1.ozone.ru/s3/multimedia-i/wc1200/6274303134.jpg" width="185" height="150" alt="#">
-               <h1>46 000 ₽</h1>
-               <h2>Электровелосипед HIPER HE-FX01 2022</h2>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-         <img src="#" alt="Товары для дома со скидкой от 80%(фото нету)">
-         <img src="#" alt="Любимые книги детства со скидкой(фото нету)">
-         <img src="#" alt="Скидки на детские игрушки(фото нету)">
-         <img src="#" alt="Бытовая техника со скидкой до 80%(фото нету)">
-         <img src="#" alt="Скидка 20% на технику Maunfeld(фото нету)">
-         <img src="#" alt="Посуда Inhouse по суперцене(фото нету)">
-      </div>
-      <div class="row">
-         <img src="#" alt="Комфорт и стиль от ADIDAS(фото нету)">
-         <img src="#" alt="Возьми с собой на дачу(фото нету)">
-         <img src="#" alt="СКИДКИ на любимые продукты(фото нету)">
-      </div>
-      <div>
-         <img src="#" alt="Экспресс-доставка за 1-3 часа(фото нету)">
-         <div class="ad">
-            <div>
-               <img src="https://cdn1.ozone.ru/s3/multimedia-3/wc1200/6191587503.jpg" width="185" height="170" alt="#">
-               <h1>789 ₽</h1>
-               <h2>Атлант расправил плечи. В 3 книгах</h2>
-            </div>
-            <div>
-               <img src="https://cdn1.ozone.ru/s3/multimedia-5/wc1200/6068675765.jpg" width="185" height="170" alt="#">
-               <h1>4 412 ₽</h1>
-               <h2>1 ТБ Внешний жесткий диск</h2>
-            </div>
-            <div>
-               <img src="https://plover.ru/upload/iblock/6d0/6d02a1b0259e03073f21287558559d69.jpg" width="185"
-                  height="170" alt="#">
-               <h1>2 233 ₽ ₽</h1>
-               <h2>Сковорода Kukmara "Granit ultra" 2022</h2>
-            </div>
-         </div>
-      </div>
-      <div class="center">
-         <img src="#" alt="НЕСКУЧНОЕЛЕТО! С развивающими книгами для детей">
-      </div>
-      <div>
-         <p>Ozon Live — прямые эфиры и скидки</p>
-         <a href="">Смотреть все эфиры</a>
-      </div>
-   </div>
-</body>
+html {
+   height: 100%;
+}
 
-</html>
+body {
+   line-height: 1;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+blockquote,
+q {
+   quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+body {
+   min-height: 270px;
+   line-height: 17px;
+   padding-left: 10px;
+   font-family: Arial;
+}
+
+a {
+   text-decoration: none;
+   font-size: 14px;
+}
+
+span {
+   font-size: 14px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   line-height: 15px;
+   margin: 15px;
+   max-width: 1500px
+}
+
+.container2 {
+   flex-direction: column;
+   line-height: 15px;
+   margin: 15px;
+   max-width: 1500px
+}
+
+input {
+   height: 34px;
+   width: 540px;
+   font-size: 15px;
+   border-left: none;
+}
+
+.ad {
+   justify-content: space-between;
+   display: flex;
+}
+
+.announcement {
+   display: flex;
+   flex-direction: column;
+}
+
+.announcement1 {
+   display: flex;
+   padding-top: 15px;
+   margin-bottom: 10px;
+}
+
+.announcement1-block {
+   display: flex;
+}
+
+.announcement1-block-img {
+   width: 1113px;
+   height: 300px;
+   border-radius: 12px;
+   margin-right: 30px;
+}
+
+.announcement1-block-promo {
+   flex-direction: column;
+}
+
+.announcement1-block-promo-search {
+   border: 2px #707f8d;
+   margin-bottom: 10px;
+}
+
+.announcement1-block-promo-promo {
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.announcement1-blcok-promo-line {
+   border: #005bff;
+   background: #005bff;
+   border-radius: 12px;
+   margin: 2px;
+   cursor: pointer;
+}
+
+.announcement1-block-promo-icon {
+   color: #fff;
+}
+
+.Stock {
+   display: flex;
+   flex-direction: column;
+}
+
+.center {
+   justify-content: center;
+   display: flex;
+}
+
+.products {
+   justify-content: space-between;
+   display: flex;
+   margin-bottom: 8rem;
+}
+
+.row {
+   display: flex;
+}
+
+.row1 {
+   padding-bottom: 7px;
+   display: flex;
+}
+
+row1-block {
+   display: flex;
+}
+
+.row2 {
+   display: flex;
+   margin-top: 4px;
+}
+
+.row3 {
+   align-items: center;
+   box-sizing: border-box;
+   display: flex;
+   flex-grow: 1;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   overflow: hidden;
+   margin-top: 7px;
+}
+
+.row3-block {
+   display: flex;
+   align-items: center;
+   height: 25px;
+}
+
+.row3-block-icon {
+   height: 16px;
+   margin-right: 5px;
+   width: 16px;
+}
+
+.gray {
+   color: #001a34;
+}
+
+.blue {
+   color: #005bff;
+}
+
+.gray2 {
+   color: #5a6c7d;
+}
+
+.gray3 {
+   color: #3d5165;
+}
+
+.row2-blue2 {
+   display: inline-flex;
+   border-radius: 6px;
+   margin-right: 16px;
+   background-color: #005bff;
+   color: #fff;
+   padding: 0 12px;
+   width: 120px;
+   height: 40px;
+   padding-bottom: 1px;
+   padding-top: 6px;
+   justify-content: center;
+   cursor: pointer;
+   border: none;
+   font-size: 16px;
+}
+
+select {
+   height: 40px;
+   width: 65px;
+}
+
+.row2-search {
+   display: flex;
+}
+
+.white {
+   color: #ffff;
+}
+
+.text {
+   width: 160px;
+   margin-right: 5px;
+}
+
+.indent1 {
+   margin-right: 38px;
+}
+
+.indent2 {
+   margin-right: 16px;
+}
+
+.indent3 {
+   margin-right: 24px;
+}
+
+.indent4 {
+   margin-right: 34px;
+   margin-left: 5px;
+   display: flex;
+}
+
+.row2-block-icon {
+   width: 14;
+   height: 16;
+   padding-bottom: 2px;
+   margin-left: 15px;
+   margin-right: 5px;
+}
+
+.upindent {
+   display: flex;
+   margin-right: 15px;
+}
+
+.upindent2 {
+   display: flex;
+   margin-right: 40px;
+   margin-bottom: 8px;
+   margin-top: -2px;
+}
+
+.downident {
+   padding: 4px
+}
+
+.downident1 {
+   margin-right: 26px;
+   flex-grow: 1;
+}
+
+.row1-block-line-2-background {
+   background-color: #e5efff;
+   border-radius: 8px;
+}
+
+.icon {
+   width: 14;
+   height: 16;
+   padding-bottom: 2px;
+   margin-left: 15px;
+   margin-right: 5px;
+}
+
+.icon1 {
+   width: 24px;
+   height: 24px;
+}
+
+.row2-catalog {
+   margin-top: 5px;
+   margin-left: 2px;
+   color: #fff;
+   font-weight: bold;
+}
+
+.search-txt {
+   border-color: #005bff;
+   border-width: 2px;
+}
+
+.row2-search-city-selection {
+   border-width: 2px;
+   border-radius: 4px 0 0 4px;
+   border-right: none;
+   background-color: #f2f5f9;
+   margin-left: 2px;
+   border-color: #005bff;
+}
+
+.row2-search-button {
+   border: none;
+   border-radius: 0 4px 4px 0;
+   border-left: none;
+   height: 40px;
+   width: 75px;
+   cursor: pointer;
+   border-color: #005bff;
+   background-color: #005bff;
+}
+
+.turquoise {
+   color: #00a6a6;
+}
+
+.row1-currency-selection {
+   background-color: #f2f5f9;
+}
+
+.row1-currency-selection-select {
+   height: 20px;
+   width: 50px;
+   margin-right: 5px;
+   border: none;
+}
+
+.row1-block-select {
+   height: 20px;
+   margin-left: 20px;
+   margin-right: 5px;
+   border: #ffff;
+   font-size: 12px;
+}
+
+.row1-block-link1 {
+   display: flex;
+   margin-top: 4px;
+}
+
+row1-block-line-2 {
+   display: flex;
+}
+
+.row1-block {
+   display: flex;
+
+}
+
+.row1-block-line1-link-1 {
+   margin-right: 2px;
+   margin-left: 2px;
+}
+
+.row1-block-line1-link-2 {
+   margin-left: 2px;
+   margin-right: 4px;
+}
+
+.row1-block-line-2-link-3 {
+   margin-left: 70px;
+}
+
+.row1-block-select-link {
+   color: #707f8d;
+   font-size: 12px;
+}
+
+.row2-block-a-login {
+   margin-left: 6px;
+}
+
+.row2-catalog-catalog {
+   font-size: 16px;
+}
+
+.row2-indent4-block-icon-svg {
+   margin-left: 8px;
+}
